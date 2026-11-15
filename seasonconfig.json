@@ -1,0 +1,19 @@
+{
+"schema": 1,
+"store_url": "https://play.google.com/store/apps/details?id=TWOJ.PAKIET",
+"board_season": "season",
+"board_alltime": "all-time",
+"seasons": [
+{"id": 3, "start": "2026-11-16T00:00:00Z", "end": "2026-11-
+30T00:00:00Z"},
+{"id": 4, "start": "2026-11-30T00:00:00Z", "end": "2026-12-
+14T00:00:00Z"},
+{"id": 5, "start": "2026-12-14T00:00:00Z", "end": "2026-12-28T00:00:00Z"}
+],
+"rewards": [
+{"max_rank": 1, "crystals": 20000},
+{"max_rank": 10, "crystals": 10000},
+{"max_rank": 100, "crystals": 4000}
+],
+"message": ""
+}
