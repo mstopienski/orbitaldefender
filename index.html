@@ -1,28 +1,110 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orbital Defender</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #0b0f19; color: #fff; text-align: center; padding: 50px; }
-        h1 { color: #00ffff; }
-        p { color: #aaa; max-width: 600px; margin: 20px auto; line-height: 1.6; }
-        .btn { display: inline-block; background: #00adb5; color: #fff; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; }
-        .btn:hover { background: #00818a; }
-        .links { margin-top: 40px; font-size: 0.9em; }
-        .links a { color: #888; text-decoration: none; margin: 0 10px; }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sibox Gam Studio – mobile games</title>
+  <meta name="description" content="Independent mobile game studio. Check out OrbitalDefender, a space-station defense game for Android.">
+  <meta name="theme-color" content="#0a0a22">
+  <meta property="og:title" content="Sibox Gam Studio – mobile games">
+  <meta property="og:description" content="Independent mobile game studio. Check out OrbitalDefender, a space-station defense game for Android.">
+  <meta property="og:type" content="website">
+  <!-- Once published you can add the full URL: <meta property="og:image" content="https://YOUR-LOGIN.github.io/REPO/assets/img/screenshot-1.png"> -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Orbital Defender</h1>
-    <p>Broni stacji kosmicznej przed falami asteroid i niszczycielskich bossów! Ulepszaj wieżyczki, rywalizuj w miesięcznych sezonach i wspinaj się na szczyt globalnego rankingu.</p>
-    
-    <a class="btn" href="#">Pobierz z Google Play</a>
-
-    <div class="links">
-        <a href="app-ads.txt">app-ads.txt</a>
-        <a href="seasonconfig.json">Season Config</a>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Sibox Gam Studio – home">
+        <img src="assets/logo-mark.svg" alt="" width="44" height="44">
+        <span>Sibox<small>Gam Studio</small></span>
+      </a>
+      <nav class="tabs" aria-label="Main navigation">
+        <a href="orbital-defender.html">OrbitalDefender</a>
+        <a href="rift-runners.html">Rift Runners</a>
+        <a href="studio.html">Studio</a>
+      </nav>
     </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <h1>Sibox Gam Studio makes games for phones.</h1>
+          <p class="lead">An independent studio with one goal: mobile games that are quick to start and hard to put down. The first one is OrbitalDefender, a space-station defense game built for a vertical phone screen.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="orbital-defender.html">See OrbitalDefender</a>
+            <a class="btn btn-ghost" href="studio.html">About the studio</a>
+          </div>
+        </div>
+        <img class="hero-mark" src="assets/logo-mark.svg" alt="Studio logo: a cube circled by an orbit with a small satellite" width="380" height="380">
+      </div>
+    </section>
+
+    <section class="games section-line" id="games">
+      <div class="wrap">
+        <h2>Our games</h2>
+
+        <article class="game-feature">
+          <div>
+            <div class="title">
+              <img src="assets/img/orbital-defender-icon.png" alt="" width="72" height="72">
+              <h3>OrbitalDefender</h3>
+            </div>
+            <p>Two turrets on curved rails, waves of enemy ships and four bonus attacks: nuke, laser, missile barrage and shield. Spend the crystals you earn on upgrades and push on, all the way to the boss.</p>
+            <p class="dim">Android &middot; portrait screen &middot; 5 languages</p>
+            <div class="actions">
+              <a class="btn btn-primary" href="orbital-defender.html">Discover the game</a>
+              <!-- CHANGE: add the Google Play link once the game is published -->
+              <a class="btn btn-ghost" href="#" aria-disabled="true">Google Play – coming soon</a>
+            </div>
+          </div>
+          <a href="orbital-defender.html" aria-label="Go to the OrbitalDefender page">
+            <!-- REPLACE: assets/img/screenshot-1.png -->
+            <img class="phone" src="assets/img/screenshot-1.png" alt="OrbitalDefender screenshot: the station's turrets firing at an enemy ship" width="497" height="876">
+          </a>
+        </article>
+
+        <article class="game-next">
+          <!-- REPLACE: assets/img/preview-1.png -->
+          <img src="assets/img/preview-1.png" alt="Early artwork for Rift Runners" width="180" height="317">
+          <div>
+            <span class="badge">In development</span>
+            <h3>Rift Runners</h3>
+            <p>The studio's next game. For now this is a mock-up: the title and description are placeholders.</p>
+            <a href="rift-runners.html">View the game page</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-line">
+      <div class="wrap split">
+        <div>
+          <h2>A small studio with its own rules</h2>
+        </div>
+        <div>
+          <p>Our games are built in Godot 4. We check level difficulty with simulations and a test bot that plays through the levels.</p>
+          <p><a href="studio.html">More about the studio</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span data-year>2026</span> Sibox Gam Studio. All rights reserved.</p>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="studio.html">Studio</a>
+        <!-- CHANGE: put your real e-mail address here -->
+        <a href="mailto:contact@example.com">contact@example.com</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/site.js"></script>
 </body>
 </html>
