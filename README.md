@@ -1,4 +1,4 @@
-# Sibox Gam Studio – GitHub Pages site
+# Sibox Game Studio – GitHub Pages site
 
 Plain HTML + CSS, no build step and no frameworks. All paths are relative, so it works both in a
 `login.github.io` repo and in a project repo (`login.github.io/repo-name/`).
